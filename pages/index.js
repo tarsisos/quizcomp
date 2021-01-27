@@ -4,7 +4,6 @@ import Widget from '../src/components/Widget'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
-import Head from '../src/components/Head'
 
 export const QuizContainer = styled.div`
   width: 100%;
