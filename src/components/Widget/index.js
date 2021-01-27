@@ -34,6 +34,7 @@ Widget.Header = styled.header `
     * {
         margin: 0;
     }
+    
 `;
 
 Widget.Content = styled.div `

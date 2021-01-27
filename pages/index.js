@@ -4,13 +4,7 @@ import Widget from '../src/components/Widget'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
-
-/* const BackgroundImage = styled.div`
-  background-image: url(${db.bg});
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-`; */
+import Head from '../src/components/Head'
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -22,6 +16,8 @@ export const QuizContainer = styled.div`
     padding: 15px;
   }
 `;
+
+<Head />
 
 export default function Home() {
   return (
