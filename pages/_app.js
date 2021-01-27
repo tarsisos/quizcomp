@@ -26,14 +26,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 const theme = db.theme;
-/* 
-const theme = {
-  colors: {
-    primary: '#4caf50',
-    //secondary: '#76ff03',
-  },
-}
- */
 
 export default function App({ Component, pageProps }) {
   return (

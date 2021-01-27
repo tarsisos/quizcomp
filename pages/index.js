@@ -16,8 +16,6 @@ export const QuizContainer = styled.div`
   }
 `;
 
-<Head />
-
 export default function Home() {
   return (
     <QuizBackground backgroundImage = {db.bg}>
