@@ -36,8 +36,12 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@100&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Orbitron:wght@900&display=swap" rel="stylesheet" />
+
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />

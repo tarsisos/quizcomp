@@ -1,13 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
-import { Router, useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -33,36 +36,31 @@ export default function Home() {
         <meta property="og:image" content={db.bg} key="ogimage" />
       </Head>
       <QuizContainer>
+        <QuizLogo />
         <Widget>
 
           <Widget.Header>
-            <h1>Quiz sobre a Computação</h1>
+            <h1>A hitória da Computação</h1>
           </Widget.Header>
-          {/*           <Widget.Content>
-            <p>
-              Testes sobre Computação!
-            </p>
-          </Widget.Content> */}
           <Widget.Content>
+            <h2>Testes os seus conhecimentos sobre alguns fatos da Computação!</h2>
+            <p />
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value);
-                  // State
-                  // name = infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value);
-                }}
-                placeholder="Qual é o seu nome?"
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Nome do Jogador?"
+                value={name}
+                autoFocus
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Pronto para jogar ${name} ?`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
@@ -74,9 +72,7 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <p>
-              Outros quizes:
-            </p>
+            <h2>Outros quizes:</h2>
           </Widget.Content>
 
         </Widget>
