@@ -11,6 +11,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
+// import Favicon from '../favicon_io';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -34,9 +35,7 @@ export default function Home() {
           QuizComp - Quiz sobre Computação
         </title>
         <meta property="og:image" content={db.bg} key="ogimage" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <QuizContainer>
