@@ -4,25 +4,135 @@
     "description": "Descrição do quiz",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media.giphy.com/media/t9vDJ3sOCcGtwyv0ks/giphy.gif",
+        "title": "Como é conhecido o computador de mesa?",
+        "description": "Só para iniciar.",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Computador",
+          "Desktop",
+          "Laptop",
+          "Tablet"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://i.imgur.com/6Jrf9OF.gif",
+        "title": "Quem é considerado o pai do computador?",
+        "description": "A máquina não foi construída.",
+        "answer": 3,
+        "alternatives": [
+           "Bill Gates",
+           "Steve Jobs",
+           "Alan Turing",
+           "Charles Babbage"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/SSM6HdOicCahnOZ5hM/giphy.gif",
+        "title": "Qual era no nome da máquina usada pelas tropas alemãs durante a Segunda Guerra Mundial?",
+        "description": "Incógnita? Apareceu em um filme.",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Enigma",
+           "Criptex",
+           "Cypher",
+           "Botschaft"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/d3MMknozeP4tqaHK/giphy.gif",
+        "title": "Qual político romano conversava de forma “escondida” com seus generais e que deu nome a um tipo de cifra?",
+        "description": "Pergunta de milênios atrás...",
+        "answer": 2,
+        "alternatives": [
+           "Calígula",
+           "Nero",
+           "Júlio Cesar",
+           "Diocleciano"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xT9IgusfDcqpPFzjdS/giphy.gif",
+        "title": "Qual linguagem de programação criada no Brasil tem o nome de um satélite natural?",
+        "description": "Talvez tenha que usar um telescópio para poder enxergar a resposta.",
+        "answer": 3,
+        "alternatives": [
+           "Tétis",
+           "Titã",
+           "Ariel",
+           "Lua"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xT8qBsOjMOcdeGJIU8/giphy.gif",
+        "title": "Quem escreveu o primeiro algoritmo a ser processado por uma máquina?",
+        "description": "function(answer)",
+        "answer": 1,
+        "alternatives": [
+           "Mark Zuckerberg",
+           "Ada Lovelace",
+           "Grace Hopper",
+           "Dorothy Vaughan"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/cNYG7qnSy0V3BcYgtU/giphy.gif",
+        "title": "Em qual universidade brasileira foi oferecido um dos primeiros cursos na área de Computação?",
+        "description": "O curso já tem 50 anos",
+        "answer": 0,
+        "alternatives": [
+           "UFBA",
+           "USP",
+           "UFPE",
+           "UNIFESP"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/KbGwMuinwwanVAgEYt/giphy.gif",
+        "title": "Que artista contribui para a patente de criação da comunicação celular e Wi-Fi?",
+        "description": "Hollywood não é só cinema.",
+        "answer": 1,
+        "alternatives": [
+           "Glenn Close",
+           "Hedy Lamarr",
+           "Elizabeth Taylor",
+           "Audrey Hepburn"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif",
+        "title": "Que cientista é considerado um dos pioneiros da Internet no Brasil?",
+        "description": "[ERROR: 404] Page not found!",
+        "answer": 0,
+        "alternatives": [
+           "Demi Getschko (PUC-SP)",
+           "Cesar Lattes (USP)",
+           "Silvio Meira (UFPE/CESAR)",
+           "Diego Aranha (Aarhus University)"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/JrGlLg0Ycz3XrufJ40/giphy.gif",
+        "title": "Quem coordenou o projeto que criou o revisor de texto de Português (ReGra), que foi usado no Word?",
+        "description": "Já salvou o seu trabalho nesse Word aberto ai? Aperte CRTL+B.",
+        "answer": 3,
+        "alternatives": [
+           "Teresa Bernarda Ludermir (UFPE)",
+           "Yoshiko Wakabayashi (IME-USP)",
+           "Clarisse de Souza (PUC-RIO)",
+           "Maria das Graças Volpe Nunes (ICMC-USP)"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/jWntGgD8UJVMt0UtEV/giphy.gif",
+        "title": "Qual empresa é conhecida como Big Blue?",
+        "description": "RGB (0, 0, 255)",
+        "answer": 2,
+        "alternatives": [
+           "Facebook",
+           "Twitter",
+           "IBM",
+           "Intel"
         ]
       }
     ],
