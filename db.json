@@ -137,7 +137,8 @@
       }
     ],
     "external": [
-      ""
+      "https://1sec-quiz.victoroda.vercel.app/",
+      "https://harry-potter-quiz.brunogerbasi.vercel.app/"
     ],
     "theme": {
       "colors": {
